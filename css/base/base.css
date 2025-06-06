@@ -10,14 +10,14 @@ body {
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: roboto;
   src: url(../../fonts/Roboto/Roboto-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: roboto;
   src: url(../../fonts/Roboto/Roboto-Bold.ttf);
   font-weight: 700;
   font-style: normal;
@@ -36,6 +36,11 @@ body {
   background-color: rgba(116, 68, 253, 0.15);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
 }
 
 .button {
@@ -71,7 +76,7 @@ body {
   font-size:38px;
 }
 .text {
-  color:rgb(187, 187, 187)
+  color:rgb(187, 187, 187);
 }
 .up {
   font-size: 40px;
@@ -93,7 +98,7 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  color:rgb(138, 136, 136)
+  color:rgb(138, 136, 136);
 }
 .inline {
   display: flex;
@@ -116,7 +121,7 @@ body {
   height: 19.3rem;
   border-radius: 30px;
   background-color: rgb(228, 230, 255);
-  transition: 0.8s;
+  transition: 0.6s;
 }
 .ctext {
   color: rgb(46, 46, 46);
@@ -155,5 +160,11 @@ body {
   margin-left: 2rem;
 }
 .fa-fire {
-  color: rgb(241, 53, 53)
+  color: rgb(241, 53, 53);
+}
+
+@media (max-width: 320px) {
+  .card .hi {
+    margin-top: 1rem;
+  }
 }
